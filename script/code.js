@@ -12,7 +12,7 @@ calculateButton.addEventListener("click", ()=>{
     height = heightInput.value;
     weight = weightInput.value;
     BMI = weight/(height**2); 
-    result.innerText = BMI;
+    result.innerText = BMI.toFixed(2);
 
     if(BMI < 18.5){
         statement.innerText = "You are underweight!";    
