@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 3rem;
+    background-image: url(/images/hanging\ flowers.jpg);
+    background-size: cover;
+}
+.head{
+    color: rgb(154, 114, 121);
+    text-shadow: 1px 1px 2px rgb(103, 50, 52), 0 0 25px rgb(141, 30, 39), 0 0 5px rgb(84, 45, 47);
+    margin: auto;
+}
+.calculator {
+    text-align: center;
+    background-color: rgb(224, 208, 211);
+    padding: 50px;
+    font-size: 1.5rem;
+    height: 500px;
+    max-width: 50%;
+    box-shadow: 1px 1px 2px rgb(103, 50, 52), 0 0 25px rgb(141, 30, 39), 0 0 5px rgb(84, 45, 47);
+    margin: auto;
+}
+p{
+    padding: 20px;
+}
+input{
+    font-size: 1.5rem;
+    max-width: 50%;
+    margin: auto;
+}
+.height-input-field, .weight-input-field{
+    border: 1px solid rgb(157, 58, 76);
+}
+button{
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(154, 114, 121);
+}
